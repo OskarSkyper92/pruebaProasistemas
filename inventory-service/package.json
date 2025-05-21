@@ -1,0 +1,31 @@
+{
+  "name": "inventory-service",
+  "version": "1.0.0",
+  "main": "AppInventory.js",
+  "scripts": {
+    "start": "node dist/AppInventory.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oscar Laguna",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.19",
+    "@types/socket.io": "^3.0.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "audit": "^0.0.6",
+    "bullmq": "^5.52.3",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "fix": "^0.0.6",
+    "ioredis": "^5.6.1",
+    "socket.io": "^4.8.1"
+  },
+  "keywords": [],
+  "description": ""
+}
